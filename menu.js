@@ -13,7 +13,7 @@ window.addEventListener('load', () => {
         menu.classList.toggle("hidden");
     }
 
-    fetch("http://ailishkearns.com/wpt/wp-json/wp/v2/films/categories")
+    fetch("http://ailishkearns.com/wpt/wp-json/wp/v2/categories")
         .then(e => e.json())
         .then(buildMenu)
 
@@ -21,14 +21,15 @@ window.addEventListener('load', () => {
         let parentElement = document.querySelector(".menu ul");
         data.forEach(item => {
             console.log(item);
-            let li = document.createElement("li");
-            let a = document.createElement("a");
-            a.textContent = item.name;
-            a.href = "index.html?category=" + item.id;
+            if (item.parent === 5) {
+                let li = document.createElement("li");
+                let a = document.createElement("a");
+                a.textContent = item.name;
+                a.href = "index.html?category=" + item.id;
 
-            li.appendChild(a);
-            parentElement.appendChild(li);
-
+                li.appendChild(a);
+                parentElement.appendChild(li);
+            }
 
         })
     }
