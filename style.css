@@ -9,66 +9,111 @@
 html,
 body {
     margin: 0;
+    overflow-x: hidden;
+}
+
+.black_background {
+    background-color: #000;
+    z-index: -100;
+    position: relative;
+}
+
+.background {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.background img {
+    width: 100vw;
+    height: auto;
+
+}
+
+.background .logo_header {
+    position: absolute;
+    top: 15vh;
+    left: 23vw;
+}
+
+.background .logo_header img {
+    width: 50vw;
+    height: auto;
 }
 
 .film {
     border: 1px solid #888888;
-    padding: 1.5em;
+
     margin: 1em;
-    box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+
+}
+
+.film img {
+    width: 100%;
+    height: auto;
 }
 
 .price {
     font-family: sans-serif;
-    color: #000;
+    color: #fff;
     font-size: 20px;
 }
 
 .genre {
     font-family: sans-serif;
-    color: #000;
+    color: #fff;
     font-size: 20px;
 }
 
 .location {
     font-family: sans-serif;
-    color: #000;
+    color: #fff;
     font-size: 20px;
 }
 
 .time {
     font-family: sans-serif;
-    color: #000;
+    color: #fff;
     font-size: 20px;
 }
 
 .weekday {
     font-family: sans-serif;
-    color: #000;
+    color: #fff;
+    font-size: 20px;
+}
+
+.date {
+    font-family: sans-serif;
+    color: #fff;
     font-size: 20px;
 }
 
 .doors {
     font-family: sans-serif;
-    color: #000;
+    color: #fff;
     font-size: 20px;
 }
 
 .director {
     font-family: sans-serif;
-    color: #000;
+    color: #fff;
     font-size: 20px;
 }
 
 .shortdescription {
     font-family: sans-serif;
-    color: #000;
+    color: #fff;
     font-size: 10px;
 }
 
 .readmore {
     font-family: sans-serif;
-    color: #000;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -81,27 +126,26 @@ body {
 
 .appbar,
 .menu {
-    background: red;
+    background: #000;
     padding: 1em;
     position: fixed;
+
 }
 
 .menu {
     top: var(--header-height);
     height: 100vh;
-    width: 100vw;
+    width: 250px;
     transition: all 0.3s 0.3s;
     color: white;
 }
 
 .menu.hidden {
     transform: translateX(-100vw);
+
 }
 
-.container-fluid {
-    margin: 1em;
-    margin-top: var(--header-height);
-}
+
 
 .menuIcon {
     height: 30px;
@@ -134,20 +178,38 @@ body {
     transform: rotate(45deg) translate(17px, -14px);
 }
 
+.container-fluid {
+    margin: 1em;
+    margin-top: var(--header-height);
+
+}
+
 #filmlist {
     display: grid;
     grid-template-columns: 1fr;
+
 }
 
 #singleFilm {
     transition: all 0.3s;
-    transform: translateX(-100vw)
+    transform: translateX(-100vw);
 }
 
 #singleFilm.slideInFilm {
 
     transform: translateX(0)
 }
+
+
+h1 {
+    font-family: 'Avenir', sans-serif;
+    src: url(Font/Document_fonts/._Avenir.ttc);
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
 
 @media (min-width: 1000px) {
     #filmlist {

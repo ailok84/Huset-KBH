@@ -1,0 +1,996 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNext-Bold
+FamilyName:Avenir Next
+StyleName:Bold
+MenuName:Avenir Next
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Avenir Next Bold
+WritingScript:Roman
+OutlineFileName:\Avenir Next.ttc
+TTCOffset:72
+DataFormat:sfntData
+FileLength:5189232
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Next Bold
+NameArray:0,Mac,4,Avenir Next Bold
+NameArray:0,Win,1,Avenir Next
+NameArray:0,Win,16,Avenir Next
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNext-BoldItalic
+FamilyName:Avenir Next
+StyleName:Bold Italic
+MenuName:Avenir Next
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Avenir Next Bold Italic
+WritingScript:Roman
+OutlineFileName:\Avenir Next.ttc
+TTCOffset:356
+DataFormat:sfntData
+FileLength:5189232
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Next Bold Italic
+NameArray:0,Mac,4,Avenir Next Bold Italic
+NameArray:0,Win,1,Avenir Next
+NameArray:0,Win,16,Avenir Next
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNext-DemiBold
+FamilyName:Avenir Next
+StyleName:Demi Bold
+MenuName:Avenir Next Demi Bold
+StyleBits:2
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Avenir Next Demi Bold
+WritingScript:Roman
+OutlineFileName:\Avenir Next.ttc
+TTCOffset:640
+DataFormat:sfntData
+FileLength:5189232
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Next Demi Bold
+NameArray:0,Mac,4,Avenir Next Demi Bold
+NameArray:0,Win,1,Avenir Next Demi Bold
+NameArray:0,Win,16,Avenir Next
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNext-DemiBoldItalic
+FamilyName:Avenir Next
+StyleName:Demi Bold Italic
+MenuName:Avenir Next Demi Bold
+StyleBits:3
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Avenir Next Demi Bold Italic
+WritingScript:Roman
+OutlineFileName:\Avenir Next.ttc
+TTCOffset:924
+DataFormat:sfntData
+FileLength:5189232
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Next Demi Bold Italic
+NameArray:0,Mac,4,Avenir Next Demi Bold Italic
+NameArray:0,Win,1,Avenir Next Demi Bold
+NameArray:0,Win,16,Avenir Next
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNext-Italic
+FamilyName:Avenir Next
+StyleName:Italic
+MenuName:Avenir Next
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Avenir Next Italic
+WritingScript:Roman
+OutlineFileName:\Avenir Next.ttc
+TTCOffset:1208
+DataFormat:sfntData
+FileLength:5189232
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Next Italic
+NameArray:0,Mac,4,Avenir Next Italic
+NameArray:0,Win,1,Avenir Next
+NameArray:0,Win,16,Avenir Next
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNext-Medium
+FamilyName:Avenir Next
+StyleName:Medium
+MenuName:Avenir Next Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Avenir Next Medium
+WritingScript:Roman
+OutlineFileName:\Avenir Next.ttc
+TTCOffset:1492
+DataFormat:sfntData
+FileLength:5189232
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Next Medium
+NameArray:0,Mac,4,Avenir Next Medium
+NameArray:0,Win,1,Avenir Next Medium
+NameArray:0,Win,16,Avenir Next
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNext-MediumItalic
+FamilyName:Avenir Next
+StyleName:Medium Italic
+MenuName:Avenir Next Medium
+StyleBits:1
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Avenir Next Medium Italic
+WritingScript:Roman
+OutlineFileName:\Avenir Next.ttc
+TTCOffset:1776
+DataFormat:sfntData
+FileLength:5189232
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Next Medium Italic
+NameArray:0,Mac,4,Avenir Next Medium Italic
+NameArray:0,Win,1,Avenir Next Medium
+NameArray:0,Win,16,Avenir Next
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNext-Regular
+FamilyName:Avenir Next
+StyleName:Regular
+MenuName:Avenir Next
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Avenir Next Regular
+WritingScript:Roman
+OutlineFileName:\Avenir Next.ttc
+TTCOffset:2060
+DataFormat:sfntData
+FileLength:5189232
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Next Regular
+NameArray:0,Mac,4,Avenir Next Regular
+NameArray:0,Win,1,Avenir Next
+NameArray:0,Win,16,Avenir Next
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNext-Heavy
+FamilyName:Avenir Next
+StyleName:Heavy
+MenuName:Avenir Next Heavy
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Avenir Next Heavy
+WritingScript:Roman
+OutlineFileName:\Avenir Next.ttc
+TTCOffset:2344
+DataFormat:sfntData
+FileLength:5189232
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Next Heavy
+NameArray:0,Mac,4,Avenir Next Heavy
+NameArray:0,Win,1,Avenir Next Heavy
+NameArray:0,Win,16,Avenir Next
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNext-HeavyItalic
+FamilyName:Avenir Next
+StyleName:Heavy Italic
+MenuName:Avenir Next Heavy
+StyleBits:1
+WeightClass:900
+WidthClass:5
+AngleClass:1
+FullName:Avenir Next Heavy Italic
+WritingScript:Roman
+OutlineFileName:\Avenir Next.ttc
+TTCOffset:2628
+DataFormat:sfntData
+FileLength:5189232
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Next Heavy Italic
+NameArray:0,Mac,4,Avenir Next Heavy Italic
+NameArray:0,Win,1,Avenir Next Heavy
+NameArray:0,Win,16,Avenir Next
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNext-UltraLight
+FamilyName:Avenir Next
+StyleName:Ultra Light
+MenuName:Avenir Next Ultra Light
+StyleBits:0
+WeightClass:275
+WidthClass:5
+AngleClass:0
+FullName:AvenirNext-UltraLight
+WritingScript:Roman
+OutlineFileName:\Avenir Next.ttc
+TTCOffset:2912
+DataFormat:sfntData
+FileLength:5189232
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Next Ultra Light
+NameArray:0,Mac,4,Avenir Next Ultra Light
+NameArray:0,Win,1,Avenir Next Ultra Light
+NameArray:0,Win,16,Avenir Next
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNext-UltraLightItalic
+FamilyName:Avenir Next
+StyleName:Ultra Light Italic
+MenuName:Avenir Next Ultra Light
+StyleBits:0
+WeightClass:275
+WidthClass:5
+AngleClass:1
+FullName:Avenir Next Ultra Light Italic
+WritingScript:Roman
+OutlineFileName:\Avenir Next.ttc
+TTCOffset:3196
+DataFormat:sfntData
+FileLength:5189232
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Next Ultra Light Italic
+NameArray:0,Mac,4,Avenir Next Ultra Light Italic
+NameArray:0,Win,1,Avenir Next Ultra Light
+NameArray:0,Win,16,Avenir Next
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Book
+FamilyName:Avenir
+StyleName:Book
+MenuName:Avenir Book
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Avenir Book
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:72
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Book
+NameArray:0,Mac,4,Avenir Book
+NameArray:0,Win,1,Avenir Book
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-BookOblique
+FamilyName:Avenir
+StyleName:Book Oblique
+MenuName:Avenir Book
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Avenir Book Oblique
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:372
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Book Oblique
+NameArray:0,Mac,4,Avenir Book Oblique
+NameArray:0,Win,1,Avenir Book
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Black
+FamilyName:Avenir
+StyleName:Black
+MenuName:Avenir Black
+StyleBits:2
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:Avenir Black
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:672
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Black
+NameArray:0,Mac,4,Avenir Black
+NameArray:0,Win,1,Avenir Black
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-BlackOblique
+FamilyName:Avenir
+StyleName:Black Oblique
+MenuName:Avenir Black Oblique
+StyleBits:3
+WeightClass:800
+WidthClass:5
+AngleClass:1
+FullName:Avenir Black Oblique
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:956
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Black Oblique
+NameArray:0,Mac,4,Avenir Black Oblique
+NameArray:0,Win,1,Avenir Black Oblique
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Heavy
+FamilyName:Avenir
+StyleName:Heavy
+MenuName:Avenir Heavy
+StyleBits:2
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Avenir Heavy
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:1240
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Heavy
+NameArray:0,Mac,4,Avenir Heavy
+NameArray:0,Win,1,Avenir Heavy
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-HeavyOblique
+FamilyName:Avenir
+StyleName:Heavy Oblique
+MenuName:Avenir Heavy
+StyleBits:3
+WeightClass:900
+WidthClass:5
+AngleClass:1
+FullName:Avenir Heavy Oblique
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:1508
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Heavy Oblique
+NameArray:0,Mac,4,Avenir Heavy Oblique
+NameArray:0,Win,1,Avenir Heavy
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Light
+FamilyName:Avenir
+StyleName:Light
+MenuName:Avenir Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Avenir Light
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:1808
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Light
+NameArray:0,Mac,4,Avenir Light
+NameArray:0,Win,1,Avenir Light
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-LightOblique
+FamilyName:Avenir
+StyleName:Light Oblique
+MenuName:Avenir Light
+StyleBits:1
+WeightClass:300
+WidthClass:5
+AngleClass:1
+FullName:Avenir Light Oblique
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:2108
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Light Oblique
+NameArray:0,Mac,4,Avenir Light Oblique
+NameArray:0,Win,1,Avenir Light
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Medium
+FamilyName:Avenir
+StyleName:Medium
+MenuName:Avenir Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Avenir Medium
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:2408
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Medium
+NameArray:0,Mac,4,Avenir Medium
+NameArray:0,Win,1,Avenir Medium
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-MediumOblique
+FamilyName:Avenir
+StyleName:Medium Oblique
+MenuName:Avenir Medium
+StyleBits:1
+WeightClass:500
+WidthClass:5
+AngleClass:1
+FullName:Avenir Medium Oblique
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:2692
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Medium Oblique
+NameArray:0,Mac,4,Avenir Medium Oblique
+NameArray:0,Win,1,Avenir Medium
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Oblique
+FamilyName:Avenir
+StyleName:Oblique
+MenuName:Avenir
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Avenir Oblique
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:2992
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Oblique
+NameArray:0,Mac,4,Avenir Oblique
+NameArray:0,Win,1,Avenir
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Avenir-Roman
+FamilyName:Avenir
+StyleName:Roman
+MenuName:Avenir
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Avenir Roman
+WritingScript:Roman
+OutlineFileName:\Avenir.ttc
+TTCOffset:3292
+DataFormat:sfntData
+FileLength:1586556
+FileModTime:1410310394
+NameArray:0,Mac,18,Avenir Roman
+NameArray:0,Mac,4,Avenir Roman
+NameArray:0,Win,1,Avenir
+NameArray:0,Win,16,Avenir
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CooperBlackStd
+FamilyName:Cooper Std
+StyleName:Black
+MenuName:Cooper Std Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Cooper Std Black
+WritingScript:Roman
+OutlineFileName:\CooperBlackStd.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:35728
+FileModTime:1351853126
+DesignSize:180
+NameArray:0,Mac,4,Cooper Std Black
+NameArray:0,Win,1,Cooper Std Black
+NameArray:0,Win,16,Cooper Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Helvetica
+FamilyName:Helvetica
+StyleName:Regular
+MenuName:Helvetica
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Helvetica
+WritingScript:Roman
+OutlineFileName:\Helvetica.dfont
+DataFormat:sfntResource
+ResourceID:25595
+FileLength:2551248
+FileModTime:1410310384
+NameArray:0,Mac,18,Helvetica
+NameArray:0,Mac,4,Helvetica
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Helvetica-Bold
+FamilyName:Helvetica
+StyleName:Bold
+MenuName:Helvetica
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Helvetica Bold
+WritingScript:Roman
+OutlineFileName:\Helvetica.dfont
+DataFormat:sfntResource
+ResourceID:28517
+FileLength:2551248
+FileModTime:1410310384
+NameArray:0,Mac,4,Helvetica Bold
+NameArray:0,Mac,4,Helvetica lihava
+NameArray:0,Mac,4,Helvetica Gras
+NameArray:0,Mac,4,Helvetica Fett
+NameArray:0,Mac,4,Helvetica grassetto
+NameArray:0,Mac,4,Helvetica vet
+NameArray:0,Mac,4,Helvetica Fet
+NameArray:0,Mac,4,Helvetica Negrita
+NameArray:0,Mac,4,Helvetica Carregado
+NameArray:0,Mac,4,Helvetica Halvfet
+NameArray:0,Mac,18,Helvetica Bold
+NameArray:4,Mac,4,Helvetica‭ ‬أسود
+NameArray:4,Mac,4,Helvetica‭ ‬برجسته
+NameArray:5,Mac,4,Helvetica‭ ‬עבה
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Helvetica-Oblique
+FamilyName:Helvetica
+StyleName:Oblique
+MenuName:Helvetica
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Helvetica Oblique
+WritingScript:Roman
+OutlineFileName:\Helvetica.dfont
+DataFormat:sfntResource
+ResourceID:22365
+FileLength:2551248
+FileModTime:1410310384
+NameArray:0,Mac,18,Helvetica Oblique
+NameArray:0,Mac,4,Helvetica Oblique
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Helvetica-BoldOblique
+FamilyName:Helvetica
+StyleName:Bold Oblique
+MenuName:Helvetica
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Helvetica Bold Oblique
+WritingScript:Roman
+OutlineFileName:\Helvetica.dfont
+DataFormat:sfntResource
+ResourceID:6413
+FileLength:2551248
+FileModTime:1410310384
+NameArray:0,Mac,18,Helvetica Bold Oblique
+NameArray:0,Mac,4,Helvetica Bold Oblique
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Helvetica-Light
+FamilyName:Helvetica
+StyleName:Light
+MenuName:Helvetica
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Helvetica Light
+WritingScript:Roman
+OutlineFileName:\Helvetica.dfont
+DataFormat:sfntResource
+ResourceID:22375
+FileLength:2551248
+FileModTime:1410310384
+NameArray:0,Mac,18,Helvetica Light
+NameArray:0,Mac,4,Helvetica Light
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Helvetica-LightOblique
+FamilyName:Helvetica
+StyleName:Light Oblique
+MenuName:Helvetica
+StyleBits:1
+WeightClass:300
+WidthClass:5
+AngleClass:1
+FullName:Helvetica Light Oblique
+WritingScript:Roman
+OutlineFileName:\Helvetica.dfont
+DataFormat:sfntResource
+ResourceID:6513
+FileLength:2551248
+FileModTime:1410310384
+NameArray:0,Mac,18,Helvetica Light Oblique
+NameArray:0,Mac,4,Helvetica Light Oblique
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Helvetica
+OutlineFileName:\Helvetica.dfont
+ResourceID:21
+MacStyle:0
+FileLength:2551248
+FileModTime:1410310384
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Helvetica-Bold
+OutlineFileName:\Helvetica.dfont
+ResourceID:21
+MacStyle:1
+FileLength:2551248
+FileModTime:1410310384
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Helvetica-Oblique
+OutlineFileName:\Helvetica.dfont
+ResourceID:21
+MacStyle:2
+FileLength:2551248
+FileModTime:1410310384
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Helvetica-BoldOblique
+OutlineFileName:\Helvetica.dfont
+ResourceID:21
+MacStyle:3
+FileLength:2551248
+FileModTime:1410310384
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Helvetica-Light
+OutlineFileName:\Helvetica.dfont
+ResourceID:211
+MacStyle:0
+FileLength:2551248
+FileModTime:1410310384
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Helvetica-LightOblique
+OutlineFileName:\Helvetica.dfont
+ResourceID:211
+MacStyle:2
+FileLength:2551248
+FileModTime:1410310384
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Portrait-Medium
+FamilyName:Portrait
+StyleName:Medium
+MenuName:Portrait Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Portrait Medium
+WritingScript:Roman
+OutlineFileName:\Portrait-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:181536
+FileModTime:1375711750
+NameArray:0,Mac,4,Portrait Medium
+NameArray:0,Win,1,Portrait Medium
+NameArray:0,Win,16,Portrait
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Times-Roman
+FamilyName:Times
+StyleName:Regular
+MenuName:Times
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Times Roman
+WritingScript:Roman
+OutlineFileName:\Times.dfont
+DataFormat:sfntResource
+ResourceID:13494
+FileLength:1618969
+FileModTime:1410310392
+NameArray:0,Mac,4,Times Roman
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Times-Bold
+FamilyName:Times
+StyleName:Bold
+MenuName:Times
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Times Bold
+WritingScript:Roman
+OutlineFileName:\Times.dfont
+DataFormat:sfntResource
+ResourceID:16697
+FileLength:1618969
+FileModTime:1410310392
+NameArray:0,Mac,4,Times Bold
+NameArray:0,Mac,4,Times Gras
+NameArray:0,Mac,4,Times Fett
+NameArray:0,Mac,4,Times grassetto
+NameArray:0,Mac,4,Times vet
+NameArray:0,Mac,4,Times Fet
+NameArray:0,Mac,4,Times Negrita
+NameArray:0,Mac,4,Times Fed
+NameArray:0,Mac,4,Times Carregado
+NameArray:0,Mac,4,Times Halvfet
+NameArray:0,Mac,4,Times lihava
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Times-Italic
+FamilyName:Times
+StyleName:Italic
+MenuName:Times
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Times Italic
+WritingScript:Roman
+OutlineFileName:\Times.dfont
+DataFormat:sfntResource
+ResourceID:21585
+FileLength:1618969
+FileModTime:1410310392
+NameArray:0,Mac,4,Times Italic
+NameArray:0,Mac,4,Times Italique
+NameArray:0,Mac,4,Times Kursiv
+NameArray:0,Mac,4,Times corsivo
+NameArray:0,Mac,4,Times cursief
+NameArray:0,Mac,4,Times Kursiv
+NameArray:0,Mac,4,Times Cursiva
+NameArray:0,Mac,4,Times kursiv
+NameArray:0,Mac,4,Times Itálico
+NameArray:0,Mac,4,Times kursiv
+NameArray:0,Mac,4,Times kursiivi
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Times-BoldItalic
+FamilyName:Times
+StyleName:Bold Italic
+MenuName:Times
+StyleBits:3
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Times Bold Italic
+WritingScript:Roman
+OutlineFileName:\Times.dfont
+DataFormat:sfntResource
+ResourceID:22219
+FileLength:1618969
+FileModTime:1410310392
+NameArray:0,Mac,4,Times Bold Italic
+NameArray:0,Mac,4,Times Gras italique
+NameArray:0,Mac,4,Times Fett Kursiv
+NameArray:0,Mac,4,Times grassetto corsivo
+NameArray:0,Mac,4,Times vet-cursief
+NameArray:0,Mac,4,Times Fet Kursiv
+NameArray:0,Mac,4,Times Negrita Cursiva
+NameArray:0,Mac,4,Times Fed kursiv
+NameArray:0,Mac,4,Times Carregado Itálico
+NameArray:0,Mac,4,Times Halvfet kursiv
+NameArray:0,Mac,4,Times lihava kursiivi
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Times-Roman
+OutlineFileName:\Times.dfont
+ResourceID:20
+MacStyle:0
+FileLength:1618969
+FileModTime:1410310392
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Times-Bold
+OutlineFileName:\Times.dfont
+ResourceID:20
+MacStyle:1
+FileLength:1618969
+FileModTime:1410310392
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Times-Italic
+OutlineFileName:\Times.dfont
+ResourceID:20
+MacStyle:2
+FileLength:1618969
+FileModTime:1410310392
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Times-BoldItalic
+OutlineFileName:\Times.dfont
+ResourceID:20
+MacStyle:3
+FileLength:1618969
+FileModTime:1410310392
+%EndFont
+

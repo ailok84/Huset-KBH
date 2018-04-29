@@ -9,7 +9,7 @@ function fetchFilms() {
     let urlParams = new URLSearchParams(window.location.search);
 
     let catid = urlParams.get("category");
-    let endpoint = "http://ailishkearns.com/wpt/wp-json/wp/v2/films?_embed&per_page=6&page=" + page
+    let endpoint = "http://ailishkearns.com/wpt/wp-json/wp/v2/films?_embed&per_page=3&page=" + page
     if (catid) { // DRY
         endpoint = "http://ailishkearns.com/wpt/wp-json/wp/v2/films?_embed&per_page=2&page=" + page + "&categories=" + catid
     }
