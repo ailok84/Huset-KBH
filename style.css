@@ -43,6 +43,18 @@ body {
     height: auto;
 }
 
+.opening_text {
+    background: #000;
+    color: white;
+    font-family: sans-serif;
+    font-size: 120%;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 .film {
     /*border: 1px solid #888888;
 
@@ -53,7 +65,8 @@ body {
     width: 100%;
     height: auto;
     opacity: .35;
-    z-index: 10;
+    position: relative;
+    z-index: 0;
 }
 
 
@@ -62,6 +75,30 @@ body {
     height: auto;
     opacity: .55;
     cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    border: 1px solid red;
+
+}
+
+.right {
+    width: 50%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    border: 1px solid blue;
+    display: flex;
 }
 
 .price {
@@ -73,7 +110,7 @@ body {
 
 .genre {
     font-family: sans-serif;
-    color: #fff;
+    color: #000;
     font-size: 20px;
 }
 
@@ -124,8 +161,18 @@ body {
 
 .readmore {
     font-family: sans-serif;
-    color: #fff;
+    color: #e6da1f;
     font-size: 20px;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid #e6da1f;
+    margin: 12px;
+
+}
+
+.readmore:hover {
+    color: #000;
+    background: #e6da1f;
 }
 
 .appbar {

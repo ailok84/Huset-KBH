@@ -32,11 +32,10 @@ function showSingleFilm(aFilm) {
     clone.querySelector(".shortdescription").innerHTML = aFilm.acf.shortdescription;
     clone.querySelector(".price span").textContent = aFilm.acf.price;
     clone.querySelector(".genre").textContent = aFilm.acf.genre;
-    clone.querySelector(".location").textContent = aFilm.acf.location;
     clone.querySelector(".time").textContent = aFilm.acf.time;
     clone.querySelector(".weekday").textContent = aFilm.acf.weekday;
-    clone.querySelector(".doors").textContent = aFilm.acf.doors;
-    clone.querySelector(".director").textContent = aFilm.acf.director;
+
+
 
     var day = aFilm.acf.date.substring(0, 2);
     var month = aFilm.acf.date.substring(2, 4);
