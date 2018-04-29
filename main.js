@@ -9,7 +9,7 @@ function fetchFilms() {
     let urlParams = new URLSearchParams(window.location.search);
 
     let catid = urlParams.get("category");
-    let endpoint = "http://ailishkearns.com/wpt/wp-json/wp/v2/films?_embed&per_page=3&page=" + page
+    let endpoint = "http://ailishkearns.com/wpt/wp-json/wp/v2/films?_embed&per_page=10&page=" + page
     if (catid) { // DRY
         endpoint = "http://ailishkearns.com/wpt/wp-json/wp/v2/films?_embed&per_page=2&page=" + page + "&categories=" + catid
     }
@@ -47,7 +47,7 @@ function showSingleFilm(aFilm) {
 
 
     if (aFilm._embedded["wp:featuredmedia"]) { //img is there
-        clone.querySelector("img").setAttribute("src", aFilm._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url)
+        clone.querySelector("img").setAttribute("src", aFilm._embedded["wp:featuredmedia"][0].media_details.sizes.large.source_url)
     } else { // no img
         clone.querySelector("img").remove()
     }

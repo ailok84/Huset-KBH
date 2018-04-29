@@ -10,13 +10,10 @@ html,
 body {
     margin: 0;
     overflow-x: hidden;
+
 }
 
-.black_background {
-    background-color: #000;
-    z-index: -100;
-    position: relative;
-}
+
 
 .background {
     width: 100vw;
@@ -25,6 +22,7 @@ body {
     top: 0;
     left: 0;
     z-index: -1;
+    background-color: #000;
 
 }
 
@@ -46,21 +44,31 @@ body {
 }
 
 .film {
-    border: 1px solid #888888;
+    /*border: 1px solid #888888;
 
-    margin: 1em;
-
+    margin: 1em;*/
 }
 
 .film img {
     width: 100%;
     height: auto;
+    opacity: .35;
+    z-index: 10;
+}
+
+
+.film img:hover {
+    width: 100%;
+    height: auto;
+    opacity: .55;
+    cursor: pointer;
 }
 
 .price {
     font-family: sans-serif;
     color: #fff;
     font-size: 20px;
+
 }
 
 .genre {
@@ -108,7 +116,10 @@ body {
 .shortdescription {
     font-family: sans-serif;
     color: #fff;
-    font-size: 10px;
+    font-size: 13px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .readmore {
@@ -138,6 +149,7 @@ body {
     width: 250px;
     transition: all 0.3s 0.3s;
     color: white;
+    font-family: sans-serif;
 }
 
 .menu.hidden {
@@ -179,14 +191,18 @@ body {
 }
 
 .container-fluid {
-    margin: 1em;
-    margin-top: var(--header-height);
+
+    margin-top: 0;
+    background-color: #000;
 
 }
 
 #filmlist {
     display: grid;
     grid-template-columns: 1fr;
+    margin-left: 0%;
+    margin-right: 0%;
+
 
 }
 
@@ -204,23 +220,24 @@ body {
 h1 {
     font-family: 'Avenir', sans-serif;
     src: url(Font/Document_fonts/._Avenir.ttc);
-    padding-top: 20px;
+
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding-bottom: 10px;
+    margin: 0;
 }
 
 
 @media (min-width: 1000px) {
     #filmlist {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
 }
 
 @media (min-width: 1300px) {
     #filmlist {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
 }
