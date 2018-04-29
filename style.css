@@ -55,6 +55,19 @@ body {
     padding-bottom: 2%;
 }
 
+.selectionbar {
+    width: 100vw;
+    height: 55px;
+    background-color: #FADFE9;
+    color: #000;
+    font-family: sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
 .film {
     /*border: 1px solid #888888;
 
