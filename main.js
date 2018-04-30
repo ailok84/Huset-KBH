@@ -36,10 +36,11 @@ function showSingleFilm(aFilm) {
     clone.querySelector(".weekday").textContent = aFilm.acf.weekday;
 
 
+    var year = aFilm.acf.date.substring(0, 4);
+    var month = aFilm.acf.date.substring(4, 6);
+    var day = aFilm.acf.date.substring(6, 8);
 
-    var day = aFilm.acf.date.substring(0, 2);
-    var month = aFilm.acf.date.substring(2, 4);
-    var year = aFilm.acf.date.substring(4, 8);
+
 
 
     clone.querySelector(".date").textContent = day + "." + month + "." + year;

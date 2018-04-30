@@ -13,7 +13,7 @@ window.addEventListener('load', () => {
         menu.classList.toggle("hidden");
     }
 
-    fetch("http://ailishkearns.com/wpt/wp-json/wp/v2/categories")
+    fetch("http://ailishkearns.com/wpt/wp-json/wp/v2/categories?per_page=100")
         .then(e => e.json())
         .then(buildMenu)
 
