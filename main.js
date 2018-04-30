@@ -9,15 +9,13 @@ function fetchFilms() {
     let urlParams = new URLSearchParams(window.location.search);
 
     let catid = urlParams.get("category");
-    let endpoint = "http://ailishkearns.com/wpt/wp-json/wp/v2/films?_embed&per_page=10&page=" + page
+    let endpoint = "http://ailishkearns.com/wpt/wp-json/wp/v2/films?_embed&per_page=25&page=" + page
     if (catid) { // DRY
-        endpoint = "http://ailishkearns.com/wpt/wp-json/wp/v2/films?_embed&per_page=2&page=" + page + "&categories=" + catid
+        endpoint = "http://ailishkearns.com/wpt/wp-json/wp/v2/films?_embed&per_page=25&page=" + page + "&categories=" + catid
     }
     fetch(endpoint)
         .then(e => e.json())
         .then(showFilms);
-
-
 }
 
 function showFilms(data) {
@@ -29,9 +27,7 @@ function showFilms(data) {
 function showSingleFilm(aFilm) {
     let clone = template.cloneNode(true);
     clone.querySelector("h1").textContent = aFilm.title.rendered;
-    clone.querySelector(".shortdescription").innerHTML = aFilm.acf.shortdescription;
     clone.querySelector(".price span").textContent = aFilm.acf.price;
-    clone.querySelector(".genre").textContent = aFilm.acf.genre;
     clone.querySelector(".time").textContent = aFilm.acf.time;
     clone.querySelector(".weekday").textContent = aFilm.acf.weekday;
 
@@ -39,9 +35,6 @@ function showSingleFilm(aFilm) {
     var year = aFilm.acf.date.substring(0, 4);
     var month = aFilm.acf.date.substring(4, 6);
     var day = aFilm.acf.date.substring(6, 8);
-
-
-
 
     clone.querySelector(".date").textContent = day + "." + month + "." + year;
 
