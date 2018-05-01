@@ -20,24 +20,37 @@ body {
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: #000;
+    background-color: #fff;
 }
 
-.background img {
+#singleFilm {
     width: 100vw;
     height: auto;
+    display: grid;
 }
 
-.background .logo_header {
-    position: absolute;
-    top: 15vh;
-    left: 23vw;
-}
-
-.background .logo_header img {
-    width: 50vw;
+#singleFilm .left {
+    width: 70vw;
     height: auto;
+    background-color: #fff;
+    display: grid;
+
 }
+
+#singleFilm .right {
+    width: 30vw;
+    height: auto;
+    background-color: #D8EBD2;
+    display: grid;
+}
+
+.poster {
+    width: 70vw;
+    height: auto;
+    text-align: center;
+}
+
+
 
 .opening_text {
     background: #000;
@@ -51,53 +64,7 @@ body {
     padding-bottom: 2%;
 }
 
-.selectionbar {
-    width: 100vw;
-    height: 55px;
-    background-color: #000;
-    color: #000;
-    font-family: sans-serif;
 
-}
-
-.selectionbar .pinkbar {
-    width: 70vw;
-    height: 55px;
-    background-color: #FADFE9;
-    color: #000;
-    font-family: sans-serif;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-left: 15vw;
-    margin-right: 15vw;
-}
-
-.image_clip {
-    width: 100%;
-    max-height: 150px;
-    overflow-y: hidden;
-    object-fit: cover;
-}
-
-.image_clip img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: .35;
-}
-
-
-.film img:hover {
-    width: 100%;
-    height: auto;
-    opacity: .55;
-
-}
 
 .content {
     width: 100%;
@@ -120,9 +87,9 @@ body {
     font-size: 20px;
     position: absolute;
     padding-left: 20px;
-    top: 36px;
-    left: 16px;
+
     padding-top: 1%;
+    display: grid;
 }
 
 .price {
@@ -131,11 +98,88 @@ body {
     font-size: 20px;
     position: absolute;
     padding-left: 20px;
-    top: 56px;
-    left: 16px;
+
     padding-top: 1%;
 
 }
+
+.genre {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 20px;
+
+    padding-top: 1%;
+
+}
+
+.location {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 20px;
+
+    padding-top: 1%;
+
+}
+
+.time {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 20px;
+
+    padding-top: 1%;
+
+}
+
+.weekday {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 20px;
+
+    padding-top: 1%;
+
+}
+
+.doors {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 20px;
+
+    padding-top: 1%;
+
+}
+
+.director {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 20px;
+
+    padding-top: 1%;
+
+}
+
+.left .short description {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 1%;
+
+}
+
+
 
 
 .content .readmore {
@@ -238,7 +282,6 @@ body {
 
 h1 {
     font-family: 'Avenir', sans-serif;
-
     color: #fff;
     text-align: center;
     padding-bottom: 20px;
