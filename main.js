@@ -28,9 +28,6 @@ function showSingleFilm(aFilm) {
     let clone = template.cloneNode(true);
     clone.querySelector("h1").textContent = aFilm.title.rendered;
     clone.querySelector(".price span").textContent = aFilm.acf.price;
-    clone.querySelector(".time").textContent = aFilm.acf.time;
-    clone.querySelector(".weekday").textContent = aFilm.acf.weekday;
-
 
     var year = aFilm.acf.date.substring(0, 4);
     var month = aFilm.acf.date.substring(4, 6);
