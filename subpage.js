@@ -22,6 +22,8 @@ function showSinglePost(aPost) {
     document.querySelector(".date").textContent = aPost.acf.date;
     document.querySelector(".shortdescription").innerHTML = aPost.content.rendered;
 
+
+
     if (aPost._embedded["wp:featuredmedia"]) { //img is there
         document.querySelector(".poster").setAttribute("src", aPost._embedded["wp:featuredmedia"][0].media_details.sizes.large.source_url)
     } else { // no img

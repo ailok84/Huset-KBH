@@ -251,6 +251,22 @@ ul {
     color: #fff;
 }
 
+.footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: #000;
+    padding: 3%;
+
+
+}
+
+.footer p {
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 @media (min-width: 1000px) {

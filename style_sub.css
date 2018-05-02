@@ -23,17 +23,27 @@ body {
     background-color: #fff;
 }
 
+
+
 #singleFilm {
     width: 100vw;
     height: auto;
-    display: grid;
+    background: #fff;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
-#singleFilm .left {
+/*#singleFilm .left {
     width: 70vw;
     height: auto;
     background-color: #fff;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
 
 }
 
@@ -41,143 +51,143 @@ body {
     width: 30vw;
     height: auto;
     background-color: #D8EBD2;
-    display: grid;
-}
+    display: flex;
+    flex-direction: column;
+    margin-left: 70vw;
+    justify-content: center;
+    align-items: center;
+}*/
 
 .poster {
     width: 70vw;
     height: auto;
     text-align: center;
-}
-
-
-
-.opening_text {
-    background: #000;
-    color: white;
-    font-family: sans-serif;
-    font-size: 120%;
-    text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 1%;
-    padding-bottom: 2%;
-}
-
-
-
-.content {
-    width: 100%;
-    height: auto;
     position: relative;
-    text-align: center;
+
 }
 
 
-.content h1 {
+.info {
+    background-color: #D8EBD2;
+    width: 30vw;
+    height: 100vh;
     position: absolute;
-    padding-left: 20px;
-    top: 8px;
-    left: 16px;
+    margin-left: 70vw;
+    margin-top: 0;
+}
+
+
+
+h1 {
+    color: #000;
+    padding-left: 5%;
+    font-family: sans-serif;
+    font-size: 2em;
+
+
 }
 
 .date {
     font-family: sans-serif;
-    color: #fff;
+
     font-size: 20px;
     position: absolute;
-    padding-left: 20px;
+    padding-left: 10%;
+    padding-top: 5%;
 
-    padding-top: 1%;
-    display: grid;
 }
 
 .price {
     font-family: sans-serif;
-    color: #fff;
+
     font-size: 20px;
     position: absolute;
-    padding-left: 20px;
+    padding-left: 10%;
 
-    padding-top: 1%;
+    padding-top: 15%;
 
 }
 
 .genre {
     font-family: sans-serif;
-    color: #fff;
+
     font-size: 20px;
     position: absolute;
-    padding-left: 20px;
+    padding-left: 10%;
 
-    padding-top: 1%;
+    padding-top: 25%;
 
 }
 
 .location {
     font-family: sans-serif;
-    color: #fff;
+
     font-size: 20px;
     position: absolute;
-    padding-left: 20px;
+    padding-left: 10%;
 
-    padding-top: 1%;
+    padding-top: 35%;
 
 }
 
 .time {
     font-family: sans-serif;
-    color: #fff;
+
     font-size: 20px;
     position: absolute;
-    padding-left: 20px;
+    padding-left: 10%;
 
-    padding-top: 1%;
+    padding-top: 45%;
 
 }
 
 .weekday {
     font-family: sans-serif;
-    color: #fff;
+
     font-size: 20px;
     position: absolute;
-    padding-left: 20px;
+    padding-left: 10%;
 
-    padding-top: 1%;
+    padding-top: 55%;
 
 }
 
 .doors {
     font-family: sans-serif;
-    color: #fff;
+
     font-size: 20px;
     position: absolute;
-    padding-left: 20px;
+    padding-left: 10%;
 
-    padding-top: 1%;
+    padding-top: 65%;
 
 }
 
 .director {
     font-family: sans-serif;
-    color: #fff;
+
     font-size: 20px;
     position: absolute;
-    padding-left: 20px;
+    padding-left: 10%;
 
-    padding-top: 1%;
+    padding-top: 75%;
 
 }
 
-.left .short description {
+.shortdescription {
+    width: 70vw;
     font-family: sans-serif;
-    color: #fff;
+
     font-size: 20px;
     position: absolute;
-    padding-left: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 1%;
+    padding-bottom: 2%;
 
 }
+
+
 
 
 
@@ -279,15 +289,6 @@ body {
     transform: translateX(0)
 }
 
-
-h1 {
-    font-family: 'Avenir', sans-serif;
-    color: #fff;
-    text-align: center;
-    padding-bottom: 20px;
-
-    margin: 0;
-}
 
 ul {
     text-decoration: none;
