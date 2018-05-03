@@ -13,19 +13,19 @@ function showSinglePost(aPost) {
     console.log(aPost._embedded);
     document.querySelector("#singleFilm h1").textContent = aPost.title.rendered;
     document.querySelector(".price span").textContent = aPost.acf.price;
-    document.querySelector(".genre").textContent = "Genre: " + aPost.acf.genre;
-    document.querySelector(".location").textContent = aPost.acf.location;
-    document.querySelector(".time").textContent = aPost.acf.time;
-    document.querySelector(".weekday").textContent = aPost.acf.weekday;
-    document.querySelector(".doors").textContent = aPost.acf.doors;
-    document.querySelector(".director").textContent = aPost.acf.director;
+    document.querySelector(".genre span").textContent = aPost.acf.genre;
+    document.querySelector(".location span").textContent = aPost.acf.location;
+    document.querySelector(".time span").textContent = aPost.acf.time;
+    document.querySelector(".weekday span").textContent = aPost.acf.weekday;
+    document.querySelector(".doors span").textContent = aPost.acf.doors;
+    document.querySelector(".director span").textContent = aPost.acf.director;
     //document.querySelector(".date").textContent = aPost.acf.date;
     document.querySelector(".shortdescription").innerHTML = aPost.content.rendered;
     var year = aPost.acf.date.substring(0, 4);
     var month = aPost.acf.date.substring(4, 6);
     var day = aPost.acf.date.substring(6, 8);
 
-    document.querySelector(".date").textContent = day + "." + month + "." + year;
+    document.querySelector(".date span").textContent = day + "." + month + "." + year;
 
 
 

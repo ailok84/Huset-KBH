@@ -9,11 +9,10 @@
 html,
 body {
     margin: 0;
+}
 
-
-    overflow-x: initial !important;
-
-
+body {
+    overflow-x: hidden;
 }
 
 .background {
@@ -66,8 +65,25 @@ body {
     height: auto;
     text-align: center;
     position: relative;
+}
+
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-content: center;
+    justify-content: center;
 
 }
+
 
 
 .info {
@@ -75,13 +91,37 @@ body {
     width: 30vw;
     height: 90vh;
     position: sticky;
-    top: 10vh;
+    top: 9vh;
 
     /*
     position: -webkit-sticky;
     position: sticky;
     top: 10vh;
     z-index: 1;*/
+}
+
+.info .readmore {
+    font-family: sans-serif;
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5%;
+    border: 1px solid #000;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 90%;
+
+}
+
+.info .readmore:hover {
+    color: #000;
+    background: #e6da1f;
+}
+
+iframe {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 110%;
 }
 
 
@@ -95,24 +135,13 @@ h1 {
 
 }
 
-.date {
+.location {
     font-family: sans-serif;
 
     font-size: 20px;
     position: absolute;
     padding-left: 10%;
     padding-top: 5%;
-
-}
-
-.price {
-    font-family: sans-serif;
-
-    font-size: 20px;
-    position: absolute;
-    padding-left: 10%;
-
-    padding-top: 15%;
 
 }
 
@@ -123,11 +152,22 @@ h1 {
     position: absolute;
     padding-left: 10%;
 
+    padding-top: 15%;
+
+}
+
+.date {
+    font-family: sans-serif;
+
+    font-size: 20px;
+    position: absolute;
+    padding-left: 10%;
+
     padding-top: 25%;
 
 }
 
-.location {
+.weekday {
     font-family: sans-serif;
 
     font-size: 20px;
@@ -149,7 +189,7 @@ h1 {
 
 }
 
-.weekday {
+.doors {
     font-family: sans-serif;
 
     font-size: 20px;
@@ -160,7 +200,7 @@ h1 {
 
 }
 
-.doors {
+.director {
     font-family: sans-serif;
 
     font-size: 20px;
@@ -171,7 +211,7 @@ h1 {
 
 }
 
-.director {
+.price {
     font-family: sans-serif;
 
     font-size: 20px;
@@ -302,23 +342,170 @@ h1 {
 }
 
 
-ul {
+.menu ul a {
     text-decoration: none;
     color: #fff;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    padding: 5px;
+}
+
+.menu a:hover {
+    opacity: .35;
+    cursor: pointer;
+}
+
+.menu a:active {
+    color: #e6da1f;
 }
 
 
 
 @media (min-width: 1000px) {
-    #filmlist {
+    #singleFilm {
         grid-template-columns: 1fr;
     }
 
 }
 
 @media (min-width: 1300px) {
-    #filmlist {
+    #singleFilm {
         grid-template-columns: 1fr 1fr;
     }
 
+}
+
+/*TABLET STYLE*/
+
+@media only screen and (max-width:780px) {
+    .location {
+        font-size: 14px;
+        padding-bottom: 10%;
+    }
+
+    .genre {
+        font-size: 14px;
+        padding-bottom: 10%;
+    }
+
+    .date {
+        font-size: 14px;
+        padding-bottom: 10%;
+    }
+    .weekday {
+        font-size: 14px;
+        padding-bottom: 10%;
+    }
+
+    .time {
+        font-size: 14px;
+        padding-bottom: 10%;
+    }
+
+    .doors {
+        font-size: 14px;
+        padding-bottom: 10%;
+
+    }
+    .director {
+        font-size: 14px;
+        padding-bottom: 10%;
+    }
+
+    .price {
+        font-size: 14px;
+        padding-bottom: 10%;
+    }
+
+    iframe {
+        width: 20vw;
+        padding-top: 10px;
+
+    }
+
+
+    .poster {
+        width: 100vw;
+        height: 40vh;
+        display: flex;
+    }
+}
+
+
+/*MOBILE STYLE*/
+
+@media only screen and (max-width: 480px) {
+
+
+    #singleFilm {
+        width: 100vw;
+        height: auto;
+        background: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+
+    .poster {
+        width: 100vw;
+        height: 40vh;
+        display: flex;
+    }
+
+    .info {
+
+        background-color: #D8EBD2;
+        width: 100vw;
+        height: 520px;
+        position: relative;
+        display: flex;
+        margin-top: -10vh;
+    }
+
+
+    .descriptioncontent {
+        width: 100vw;
+        height: auto;
+        position: relative;
+        margin-top: 20px;
+
+        font-size: 20px;
+
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+
+
+    }
+
+    .logo img {
+        display: none;
+
+    }
+
+    .info .readmore {
+        padding: 5%;
+        border: 1px solid #000;
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 85%;
+
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-top: 70px;
+
+    }
+
+    iframe {
+        width: 90vw;
+        padding-top: 10px;
+    }
 }
