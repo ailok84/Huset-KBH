@@ -73,9 +73,9 @@ body {
 .info {
     background-color: #D8EBD2;
     width: 30vw;
-    height: 100vh;
-    position: absolute;
-    margin-left: 70vw;
+    height: 90vh;
+    position: sticky;
+    top: 10vh;
 
     /*
     position: -webkit-sticky;
@@ -182,12 +182,16 @@ h1 {
 
 }
 
-.shortdescription {
+.descriptioncontent {
     width: 70vw;
+}
+
+.shortdescription {
+
     font-family: sans-serif;
 
     font-size: 20px;
-    position: absolute;
+
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 1%;

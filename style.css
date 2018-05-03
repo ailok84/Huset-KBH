@@ -9,9 +9,13 @@
 html,
 body {
     margin: 0;
-    overflow-x: initial !important;
 
 
+
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .background {
@@ -113,12 +117,13 @@ body {
     padding-left: 20px;
     top: 8px;
     left: 16px;
+    font-size: 14px;
 }
 
 .date {
     font-family: sans-serif;
     color: #fff;
-    font-size: 20px;
+    font-size: 14px;
     position: absolute;
     padding-left: 20px;
     top: 36px;
@@ -129,7 +134,7 @@ body {
 .price {
     font-family: sans-serif;
     color: #fff;
-    font-size: 20px;
+    font-size: 14px;
     position: absolute;
     padding-left: 20px;
     top: 56px;
@@ -245,9 +250,10 @@ h1 {
     padding-bottom: 20px;
 
     margin: 0;
+    font-size: 20px;
 }
 
-ul {
+.menu ul a {
     text-decoration: none;
     color: #fff;
 }
@@ -261,12 +267,19 @@ ul {
 
 }
 
-.footer p {
+.footer {
     color: #fff;
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer .social_media img {
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+
 }
 
 
@@ -280,6 +293,73 @@ ul {
 @media (min-width: 1300px) {
     #filmlist {
         grid-template-columns: 1fr 1fr;
+    }
+
+    h1 {
+        font-family: 'Avenir', sans-serif;
+
+        color: #fff;
+        text-align: center;
+        padding-bottom: 20px;
+
+        margin: 0;
+    }
+
+    .content h1 {
+        position: absolute;
+        padding-left: 20px;
+        top: 8px;
+        left: 16px;
+    }
+
+
+    .date {
+        font-family: sans-serif;
+        color: #fff;
+        font-size: 20px;
+        position: absolute;
+        padding-left: 20px;
+        top: 36px;
+        left: 16px;
+        padding-top: 1%;
+    }
+
+    .price {
+        font-family: sans-serif;
+        color: #fff;
+        font-size: 20px;
+        position: absolute;
+        padding-left: 20px;
+        top: 56px;
+        left: 16px;
+        padding-top: 1%;
+
+    }
+
+    .opening_text {
+        background: #000;
+        color: white;
+        font-family: sans-serif;
+        font-size: 80%;
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+    }
+
+    .footer {
+        color: #fff;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .social_media img {
+        width: 70%;
+        align-content: center;
+
     }
 
 }
